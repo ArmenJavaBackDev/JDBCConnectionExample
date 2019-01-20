@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62834be4-372d-42e7-897b-6680d90dc057" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1675163571">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="db" value="2" />
+          <entry key="java" value="24" />
+          <entry key="sql" value="7" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="24" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SQL" value="6" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="6058" />
+          <entry key="sql" value="761" />
+          <entry key="xml" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6058" />
+          <entry key="SQL" value="339" />
+          <entry key="Scratch" value="422" />
+          <entry key="XML" value="19" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JDBCconnection" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/SpitterRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpitterRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-103">
+              <caret line="72" column="61" lean-forward="true" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1072#1099#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpittleRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpittleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2401#2417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spittr/domain/Spittle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/spittr/domain/Spittle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/db/SpitterRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/config/DataConfig.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5b2bbce5-3dfc-4463-b93f-974396a4b01b/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/fdb45661-1be8-4576-a3e8-4330b8a6c304/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/spittr/db/jdbc/schema.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/db/SpittleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/domain/Spitter.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/spittr.db.jdbc/test-data.sql" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/JdbcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spittr/db/jdbc/test-data.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpitterRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpittleRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/spittr/JdbcSpittleRepositoryTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="JDBCconnection" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="661" />
+    <option name="width" value="712" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBCconnection" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="spittr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDBCconnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547997796462" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Spring projects\JDBCconnection\src\main\resources\spittr\db\jdbc" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.JdbcSpittleRepositoryTest">
+    <configuration name="JdbcSpitterRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCconnection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr" />
+      <option name="MAIN_CLASS_NAME" value="spittr.JdbcSpitterRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcSpitterRepositoryTest.findByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCconnection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr" />
+      <option name="MAIN_CLASS_NAME" value="spittr.JdbcSpitterRepositoryTest" />
+      <option name="METHOD_NAME" value="findByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcSpitterRepositoryTest.save_existingSpitter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCconnection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr" />
+      <option name="MAIN_CLASS_NAME" value="spittr.JdbcSpitterRepositoryTest" />
+      <option name="METHOD_NAME" value="save_existingSpitter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcSpittleRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCconnection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr" />
+      <option name="MAIN_CLASS_NAME" value="spittr.JdbcSpittleRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcSpittleRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCconnection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spittr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="spittr" />
+      <option name="MAIN_CLASS_NAME" value="spittr.JdbcSpittleRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JdbcSpitterRepositoryTest.save_existingSpitter" />
+      <item itemvalue="JUnit.JdbcSpitterRepositoryTest" />
+      <item itemvalue="JUnit.JdbcSpittleRepositoryTest" />
+      <item itemvalue="JUnit.JdbcSpitterRepositoryTest.findByUsername" />
+      <item itemvalue="JUnit.JdbcSpittleRepositoryTest.save" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JdbcSpittleRepositoryTest" />
+        <item itemvalue="JUnit.JdbcSpittleRepositoryTest.save" />
+        <item itemvalue="JUnit.JdbcSpitterRepositoryTest" />
+        <item itemvalue="JUnit.JdbcSpitterRepositoryTest.findByUsername" />
+        <item itemvalue="JUnit.JdbcSpitterRepositoryTest.save_existingSpitter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62834be4-372d-42e7-897b-6680d90dc057" name="Default Changelist" comment="" />
+      <created>1547654669427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547654669427</updated>
+      <workItem from="1547654677502" duration="16273000" />
+      <workItem from="1547899090887" duration="16065000" />
+      <workItem from="1547981344367" duration="11060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JdbcSpittleRepositoryTest - 2019.01.20 at 17h 21m 09s.xml">
+      <configuration name="JdbcSpittleRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest - 2019.01.20 at 17h 23m 40s.xml">
+      <configuration name="JdbcSpittleRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest_save - 2019.01.20 at 17h 24m 42s.xml">
+      <configuration name="JdbcSpittleRepositoryTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest_save - 2019.01.20 at 17h 28m 52s.xml">
+      <configuration name="JdbcSpittleRepositoryTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest - 2019.01.20 at 17h 29m 15s.xml">
+      <configuration name="JdbcSpittleRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest_save - 2019.01.20 at 17h 33m 08s.xml">
+      <configuration name="JdbcSpittleRepositoryTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest_save - 2019.01.20 at 17h 35m 12s.xml">
+      <configuration name="JdbcSpittleRepositoryTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest_save - 2019.01.20 at 17h 35m 32s.xml">
+      <configuration name="JdbcSpittleRepositoryTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest - 2019.01.20 at 17h 35m 49s.xml">
+      <configuration name="JdbcSpittleRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcSpittleRepositoryTest - 2019.01.20 at 18h 12m 34s.xml">
+      <configuration name="JdbcSpittleRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43398000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22692889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" weight="0.32980332" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.47704917" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4147541" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.47704917" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.40491804" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepositoryTest.java</url>
+          <line>59</line>
+          <properties class="spittr.JdbcSpitterRepositoryTest" method="save_newSpitter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepositoryTest.java</url>
+          <line>41</line>
+          <properties class="spittr.JdbcSpitterRepositoryTest" method="findByUsername">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/jdbc.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config.java" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5b2bbce5-3dfc-4463-b93f-974396a4b01b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/config/DataConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql.trace.db" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql.mv.db" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/fdb45661-1be8-4576-a3e8-4330b8a6c304/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spittr.db.jdbc.schema.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/SpittleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/domain/Spitter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/SpitterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="2034" selection-start-line="2034" selection-end-line="2034" />
+          <folding>
+            <element signature="e#83250#83251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="507" selection-start-line="507" selection-end-line="507" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+          <folding>
+            <element signature="e#11597#11598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpitterRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="72" column="61" lean-forward="true" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1072#1099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spittr/db/jdbc/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spittr/db/jdbc/test-data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpitterRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="45" column="74" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/domain/Spittle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spittr/db/jdbc/JdbcSpittleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2401#2417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/spittr/JdbcSpittleRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="64" column="4" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
